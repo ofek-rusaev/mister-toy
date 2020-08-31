@@ -1,0 +1,16 @@
+.main-header {
+    // font-family: feast-of-flesh-bb, sans-serif;
+    font-family: lato, sans-serif;
+    grid-column: 1 / -1;
+    align-self: center;
+    background-color: $clr2;
+    margin-bottom: 40px;
+    padding: 30px;
+    a {
+        // font-weight: bold;
+        color: $clr1;
+    }
+    a.router-link-exact-active {
+        color: $clr5;
+    }
+}

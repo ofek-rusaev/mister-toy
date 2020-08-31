@@ -1,0 +1,24 @@
+.toy-chatroom {
+    margin-top: rem(40px);
+    h2{
+        font-size: rem(20px);
+    }
+    ul {
+        min-height: rem(200px);
+        list-style: none;
+    }
+    form {
+        // max-width: rem(600px);
+    }
+    .chat-window {
+        margin: auto;
+        border: 1px solid black;
+        max-width: rem(400px);
+    }
+    input {
+        min-width: rem(250px);
+    }
+    .typing-output {
+        position: absolute;
+    }
+}

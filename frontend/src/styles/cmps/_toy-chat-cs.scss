@@ -1,0 +1,22 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.chat-window {
+    border: $clr2 2px solid;
+    background-color: $clr1;
+    padding: 10px;
+}
+.chat-box {
+    height: 150px;
+}
+.chat-btn {
+    width: 50px;
+    align-self: flex-end;
+}
+.chat-btn img {
+    width: 20px;
+}

@@ -1,0 +1,11 @@
+.toy-details {
+    display: flex;
+    justify-content: center;
+    .toy-info{
+        min-width: rem(250px);
+    }
+    img {
+        height: rem(200px);
+        width: rem(200px);
+    }
+}

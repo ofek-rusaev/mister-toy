@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.home img{
+    max-height: rem(150px);
+    // width: 100%;
+}
+
+input, select, button {
+    font-family: lato, sans-serif;
+    background-color: $clr1;
+    color: $clr2;
+}
+
+option {
+    font-family: lato, sans-serif;
+    background-color: $clr1;
+    color: $clr2;
+}
+
+html {
+    font-family: lato, sans-serif;
+    color: $clr2;
+    background-color: $clr1;
+    text-align: center;
+    line-height: 1.9;
+}
+.home h1 {
+    font-size: rem(70px);
+    color: $clr3;
+    font-family: willywonka, serif;
+    letter-spacing: 5px;
+    margin-block-start: 0;
+ }
+
+body {
+    margin: 0;
+}
+
+#app {
+    font-family: lato, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: $clr3;
+    .add {
+        font-weight: bold;
+        color: $clr5;
+    }
+}
